@@ -4,7 +4,9 @@ Colchonet::Application.routes.draw do
     resources :rooms
     resources :users
 
-    resource :user_confirmation, :only => [:show]
+    resource :confirmation, :only => [:show]
+
+    #resource :user_confirmation, :only => [:show]
   end
 
   # The priority is based upon order of creation:

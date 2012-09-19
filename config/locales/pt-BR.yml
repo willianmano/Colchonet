@@ -11,6 +11,8 @@ pt:
       location: 'Localização: %{location}'
       bio: 'Biografia: %{bio}'
       edit: Editar Perfil
+    confirmations:
+      success: Usuário confirmado com sucesso!
   links:
     back: Voltar
   layout:
